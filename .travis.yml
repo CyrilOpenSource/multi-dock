@@ -20,5 +20,6 @@ after_success:
   - docker push gymdocker9903/multi-nginx
   - docker push gymdocker9903/multi-server
   - docker push gymdocker9903/multi-worker 
+  
 
 
