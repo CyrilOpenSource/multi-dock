@@ -7,7 +7,7 @@ before_install:
 
 script:
   - ls
-  - chmod a+x /client/node_modules/.bin/react-scripts
+  - chmod a+x ./client/node_modules/.bin/react-scripts
   - docker run gymdocker9903/multi-docker-test npm test -- --coverage
 
 after_success:
